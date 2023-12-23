@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #65d3ff;
+}
+.navbar ol{
+   display: flex;
+   list-style: none;
+   margin-right: 20px;
+   margin-top: 40px;
+}
+.navbar li{
+    margin-left: 40px;
+}
+.navbar h1{
+    border: 3px solid black;
+    background-color: rgb(135, 173, 222);
+}
+.navbar li:hover{
+  text-decoration: underline;
+}
+.abouttext{
+    width: 700px;
+    border: 3px solid black;
+}
+.abouttext p{
+    width: 70%;
+}
+.about{
+    display: flex;
+    margin-left: 420px;
+    margin-top: 30px;
+}
+.about img{
+    width: 150%;
+    margin-right: 50px;
+    margin-top: 40%;
+}
